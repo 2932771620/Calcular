@@ -68,6 +68,7 @@ public class calculator extends JFrame implements ActionListener {
             this.input_text.setHorizontalAlignment(JTextField.RIGHT);//从右开始
             if(this.input_text.getText().equals("")){
                 this.out_text.setText("0");
+
             }
             else {
                 String getInput_text=this.input_text.getText();//获取文本的值
